@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="content">
+		<header>
+			Симпл сайт
+		</header>
+		<div class="main">
+			<nav>
+				<a href="#" onclick="add(document.getElementById('aValue').value,document.getElementById('bValue').value)"> Сложение</a>
+				<a href="#" onclick="sub(document.getElementById('aValue').value,document.getElementById('bValue').value)"> Вычитание</a>
+				<a href="#" onclick="mul(document.getElementById('aValue').value,document.getElementById('bValue').value)"> Умножение</a>
+				<a href="#" onclick="div(document.getElementById('aValue').value,document.getElementById('bValue').value)"> Деление</a>
+			</nav>
+			<article>
+				<div>
+					<label for="">A</label>
+					<input type="text" id="aValue">
+				</div>
+				<div>
+					<label for="">B</label>
+					<input type="text" id="bValue">
+				</div>
+				<div id="result"></div>
+			</article>
+			<aside>
+				АСАЙД
+			</aside>
+		</div>
+		<footer>Foooter</footer>
+	</div>
+</body>
+</html>
